@@ -36,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hellomathieu/HtmlErbHint"
+    "url": "https://github.com/hellomathieu/htmlerb-hint"
   },
   "bugs": {
-    "url": "https://github.com/hellomathieu/HtmlErbHint/issues"
+    "url": "https://github.com/hellomathieu/htmlerb-hint/issues"
   },
   "keywords": [
     "html",
