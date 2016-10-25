@@ -1,7 +1,7 @@
 {
-  "name": "htmlhint",
+  "name": "htmlerb-hint",
   "version": "0.9.14",
-  "description": "A Static Code Analysis Tool for HTML",
+  "description": "Remove Ruby statements and lint HTML",
   "main": "./index",
   "dependencies": {
     "async": "1.5.2",
@@ -36,17 +36,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/yaniswang/HTMLHint.git"
+    "url": "https://github.com/hellomathieu/HtmlErbHint"
   },
   "bugs": {
-    "url": "https://github.com/yaniswang/HTMLHint/issues"
+    "url": "https://github.com/hellomathieu/HtmlErbHint/issues"
   },
   "keywords": [
     "html",
+    "erb",
     "hint",
     "Analysis",
     "Javascript"
   ],
   "author": "Yanis Wang",
+  "contributors": [{
+    "name": "Mathieu Carpentier",
+    "email": "mathieu@lechiffre8.com"
+  }],
   "license": "MIT"
 }
