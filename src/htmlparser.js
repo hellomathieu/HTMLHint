@@ -47,6 +47,9 @@ var HTMLParser = (function(undefined){
                 col: 1
             });
 
+            // Ignore ERB code
+            html = html.replace(/<%([\s\S]*?)%>/gm, "#");
+
             while((match = regTag.exec(html))){
                 matchIndex = match.index;
                 if(matchIndex > lastIndex){//保存前面的文本或者CDATA
