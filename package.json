@@ -1,6 +1,6 @@
 {
   "name": "htmlerb-hint",
-  "version": "0.9.14",
+  "version": "0.10.0",
   "description": "Remove Ruby statements and lint HTML",
   "main": "./index",
   "dependencies": {
@@ -49,9 +49,11 @@
     "Javascript"
   ],
   "author": "Yanis Wang",
-  "contributors": [{
-    "name": "Mathieu Carpentier",
-    "email": "mathieu@lechiffre8.com"
-  }],
+  "contributors": [
+    {
+      "name": "Mathieu Carpentier",
+      "email": "mathieu@lechiffre8.com"
+    }
+  ],
   "license": "MIT"
 }
